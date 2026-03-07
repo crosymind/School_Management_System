@@ -7,6 +7,7 @@
         public int TeacherCount { get; set; }
         public int ClassCount { get; set; }
         public int UserCount { get; set; }
+        public int UnpaidFeesCount { get; set; }
 
         // Dữ liệu mảng để vẽ biểu đồ
         public List<string> ChartLabels { get; set; } = new List<string>();
